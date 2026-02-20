@@ -57,13 +57,13 @@ This phase focused on creating key-value pairs using various Python constructors
 ##### 1. Multiple Creation Methods: We practiced three ways to define a dictionary to understand syntax flexibility.
 
 - Method 1: Using keyword arguments
-- my_dict = dict(name='belle', age=95, city='bamenda')
+  my_dict = dict(name='belle', age=95, city='bamenda')
 
 - Method 2: Using a list of tuples
-- my_dict = dict([('name', 'belle'), ('age', 95), ('city', 'bamenda')])
+  my_dict = dict([('name', 'belle'), ('age', 95), ('city', 'bamenda')])
 
 - Method 3: Using standard curly braces
-my_dict = {'name': 'belle', 'age': 95, 'city': 'bamenda'}
+  my_dict = {'name': 'belle', 'age': 95, 'city': 'bamenda'}
 
 ##### 2. Handling Complex Values: We mapped single keys to multiple values (tuples and lists) to simulate a database record.
 - Mapping keys to tuples
