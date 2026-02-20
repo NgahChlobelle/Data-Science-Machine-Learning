@@ -170,7 +170,8 @@ my_dict.values()
 my_dict.update({'gender': ['female', 'female', 'male']})
 
 ## SCREENSHOTS OF RESULTS
-- [Data Structure Code image 1]{https://i.postimg.cc/hvvdFhZh/Data-Structures-Data-Science-and-ML-Image-1.png}
+
+
 
 ## KEY OBSERVATIONS/LESSONS LEARNED
 - Lists are Dynamic: Observed that lists can be modified (mutable) using .append(), .pop(), and .insert(). This makes them ideal for datasets that grow over time.
@@ -182,6 +183,5 @@ This occurred because the list contained a mix of integers (1) and strings ('a',
 
 - Dictionaries are highly flexible. I successfully mapped single keys to multiple values using both tuples (for fixed records) and lists (for records that might need updating).
 
-## PROPER FORMATTING USING MARKDOWN
 
-## CLEAN STRUCTURE AND PROFESSIONAL PRESENTATION
+
