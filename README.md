@@ -170,6 +170,7 @@ my_dict.values()
 my_dict.update({'gender': ['female', 'female', 'male']})
 
 ## SCREENSHOTS OF RESULTS
+- [Data Structure Code image 1]{https://i.postimg.cc/hvvdFhZh/Data-Structures-Data-Science-and-ML-Image-1.png}
 
 ## KEY OBSERVATIONS/LESSONS LEARNED
 - Lists are Dynamic: Observed that lists can be modified (mutable) using .append(), .pop(), and .insert(). This makes them ideal for datasets that grow over time.
