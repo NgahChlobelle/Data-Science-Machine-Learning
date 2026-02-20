@@ -13,40 +13,40 @@
 ### Phase 1: List Construction and Dynamic Modification
 In this phase, we created a mutable sequence and tested various methods to alter its structure and content.
 
-#### 1. Initialize the List: Start with a basic list of characters.
+##### 1. Initialize the List: Start with a basic list of characters.
 letters = ['a', 'b', 'c', 'd', 'e']
 
-#### 2. Append Data: Add a single element to the very end.
+##### 2. Append Data: Add a single element to the very end.
 letters.append('f')
 
-#### 3. Extend Data: Add multiple elements (g and h) to the end of the existing list.
+##### 3. Extend Data: Add multiple elements (g and h) to the end of the existing list.
 letters.extend(['g', 'h'])
 
-#### 4. Insert at Index: Place a new element at a specific position (index 0).
+##### 4. Insert at Index: Place a new element at a specific position (index 0).
 letters.insert(0, 1)
 
-#### 5. Remove and Re-insert: Remove an element by value and place it back at a new index.
+##### 5. Remove and Re-insert: Remove an element by value and place it back at a new index.
 letters.remove('a')
 letters.insert(1, 'a')
 
-#### 6. Extract with Pop: Remove an item at index 3 and store it in a variable to demonstrate the .pop() return value.
+##### 6. Extract with Pop: Remove an item at index 3 and store it in a variable to demonstrate the .pop() return value.
 pop_elements = letters.pop(3)
 
-#### 7. Search and Count: Locate the index of 'e' and count the frequency of 'b'.
+##### 7. Search and Count: Locate the index of 'e' and count the frequency of 'b'.
 letters.index('e')
 letters.count('b')
 
-#### 8. Reorder: Attempt to sort the list (noting that mixed types like integers and strings will cause an error) and then reverse the order.
+##### 8. Reorder: Attempt to sort the list (noting that mixed types like integers and strings will cause an error) and then reverse the order.
 letters.sort()   # Note: This triggers a TypeError if '1' is still in the list
 letters.reverse()
 
 ### Phase 2: Working with Immutable Tuples
 We explored tuples to understand how to store data that should remain constant throughout a program.
 
-#### 1. Create Tuple: Defined a fixed sequence.
+##### 1. Create Tuple: Defined a fixed sequence.
 ngah = ('a', 'b', 'c', 'd', 'e')
 
-#### 2. Access and Locate: Retrieve data using indices and search for specific values.
+##### 2. Access and Locate: Retrieve data using indices and search for specific values.
 print(ngah[4])
 ngah.count('a')
 ngah.index('c')
@@ -54,18 +54,18 @@ ngah.index('c')
 ### Phase 3: Dictionary Mapping and Data Extraction
 
 This phase focused on creating key-value pairs using various Python constructors, essential for handling structured data.
-#### 1. Multiple Creation Methods: We practiced three ways to define a dictionary to understand syntax flexibility.
+##### 1. Multiple Creation Methods: We practiced three ways to define a dictionary to understand syntax flexibility.
 
-##### Method 1: Using keyword arguments
+###### Method 1: Using keyword arguments
 my_dict = dict(name='belle', age=95, city='bamenda')
 
-##### Method 2: Using a list of tuples
+###### Method 2: Using a list of tuples
 my_dict = dict([('name', 'belle'), ('age', 95), ('city', 'bamenda')])
 
-##### Method 3: Using standard curly braces
+###### Method 3: Using standard curly braces
 my_dict = {'name': 'belle', 'age': 95, 'city': 'bamenda'}
 
-#### 2. Handling Complex Values: We mapped single keys to multiple values (tuples and lists) to simulate a database record.
+##### 2. Handling Complex Values: We mapped single keys to multiple values (tuples and lists) to simulate a database record.
 - Mapping keys to tuples
 my_dict = {
     'names': ('belle', 'clan', 'best'),
@@ -80,19 +80,19 @@ my_dict_2 = dict([
     ('city', ['bamenda', 'douala', 'maryland'])
 ])
 
-#### 3. Data Retrieval: Using built-in methods to isolate keys, values, or items.
+##### 3. Data Retrieval: Using built-in methods to isolate keys, values, or items.
 my_dict.get('names')  # Safe retrieval
 my_dict.items()       # Returns key-value pairs
 my_dict.keys()        # Returns all keys
 my_dict.values()       # Returns all values
 
-#### 4 Dictionary Update: Merging new data into the existing dictionary.
+##### 4 Dictionary Update: Merging new data into the existing dictionary.
 my_dict.update({'gender': ['female', 'female', 'male']})
 
 ## COMMANDS EXECUTED
 
 - Creating a list
-### **1. List Operations (Mutable Sequences)**
+#### **1. List Operations (Mutable Sequences)**
 - Initializing a list with string elements
 letters = ['a', 'b', 'c', 'd', 'e']
 
@@ -126,7 +126,7 @@ letters.count('b')
 - Reversing the current order of the list
 letters.reverse()
 
-### **2. Tuple Operations (Immutable Sequences)**
+#### **2. Tuple Operations (Immutable Sequences)**
 - Defining a tuple
 ngah = ('a', 'b', 'c', 'd', 'e')
 
@@ -139,7 +139,7 @@ ngah.count('a')
 - Finding the index of 'c'
 ngah.index('c')
 
-### **3. Dictionary Operations (Key-Value Mapping)**
+#### **3. Dictionary Operations (Key-Value Mapping)**
 - Method 1: Creation using keyword arguments
 my_dict = dict(name='belle', age=95, city='bamenda')
 
