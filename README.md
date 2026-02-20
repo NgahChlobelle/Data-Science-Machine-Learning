@@ -86,7 +86,7 @@ my_dict = {
     'city': ('bamenda', 'douala', 'maryland')
 }
 
-- Mapping keys to lists (from IMG_4175)
+- Mapping keys to lists 
 my_dict_2 = dict([
     ('names', ['belle', 'ngah', 'awah']),
     ('ages', [95, 50, 76]),
@@ -172,12 +172,14 @@ my_dict = {
     'city': ('bamenda', 'douala', 'maryland')
 }
 
-- Safe retrieval of values
+- Retrieval of values
 my_dict.get('names')
 
 - Extracting all key-value pairs, keys, and values separately
 my_dict.items()
+
 my_dict.keys()
+
 my_dict.values()
 
 - Adding a new category 'gender' using .update()
