@@ -11,6 +11,7 @@
 ## STEP-BY-STEP PROCESS
 
 ## COMMANDS EXECUTED
+
 # Creating a list
 1. List Operations (Mutable Sequences)
 
