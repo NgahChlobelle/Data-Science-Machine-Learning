@@ -12,13 +12,13 @@
 
 ## COMMANDS EXECUTED
 
-# Creating a list
+- Creating a list
 1. List Operations (Mutable Sequences)
 
-# Initializing a list with string elements
+- Initializing a list with string elements
 letters = ['a', 'b', 'c', 'd', 'e']
 
-# Adding 'f' to the end of the list
+- Adding 'f' to the end of the list
 letters.append('f')
 
 # Adding multiple elements ('g', 'h') at once
